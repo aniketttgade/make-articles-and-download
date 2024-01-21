@@ -1,0 +1,382 @@
+/* styles.css */
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.articles-list {
+  display: grid;
+  gap: 20px;
+}
+
+.article {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.article h2 {
+  color: #e50914;
+  margin-bottom: 10px;
+}
+
+.article p {
+  color: #fff;
+  margin: 0;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d1080c;
+}
+/* styles.css */
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.articles-list {
+  display: grid;
+  gap: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.article h2 {
+  color: #e50914;
+  margin-bottom: 10px;
+}
+
+.article p {
+  color: #fff;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.delete-button,
+.download-button {
+  position: absolute;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.delete-button {
+  top: 10px;
+  right: 50px; /* Adjusted position to the right */
+  background: none;
+  border: none;
+}
+
+.delete-icon,
+.download-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.download-button {
+  right: 10px;
+  background: none;
+  border: none;
+}
+
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.articles-list {
+  display: grid;
+  gap: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.article h2 {
+  color: #e50914;
+  margin-bottom: 10px;
+}
+
+.article p {
+  color: #fff;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.delete-button,
+.download-button {
+  position: absolute;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.delete-button {
+  top: 10px;
+  right: 50px;
+  background: none;
+  border: none;
+}
+
+.delete-icon,
+.download-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.download-button {
+  right: 10px;
+  background-color: #3498db; /* Set the button color to blue */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.articles-list {
+  display: grid;
+  gap: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.article h2 {
+  color: #e00404;
+  margin-bottom: 10px;
+}
+
+.article p {
+  color: #fff;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #3498db;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d1080c;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #3498db;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d1080c;
+}

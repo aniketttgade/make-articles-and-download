@@ -1,0 +1,33 @@
+<!-- write-article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write Article</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="menu">
+    <a href="write-article.html">Write Article</a>
+    <a href="view-articles.html">View Articles</a>
+  </div>
+  <div class="container">
+    <div class="header">
+      <h1>Write Your Article</h1>
+    </div>
+    <div class="form-container">
+      <form id="articleForm">
+        <label for="articleTitle">Title:</label>
+        <input type="text" id="articleTitle" name="articleTitle" required>
+
+        <label for="articleContent">Content:</label>
+        <textarea id="articleContent" name="articleContent" rows="8" required></textarea>
+
+        <button type="submit">Submit Article</button>
+      </form>
+    </div>
+  </div>
+  <script src="write-article.js"></script>
+</body>
+</html>
